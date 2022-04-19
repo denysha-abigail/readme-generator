@@ -27,15 +27,15 @@ const questions = [
         message: 'Please provide information on how to use the application.'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Select licenses (Check all that apply)',
-        choices: ['MIT', 'ISC', 'GPL-3.0', 'None']
+        choices: ['MIT', 'ISC', 'Apache 2.0', 'None']
     },
     {
         type: 'input',
         name: 'contribution',
-        message: "Please name any contributors:"
+        message: "What are your contribution guidelines?"
     },
     {
         type: 'input',
