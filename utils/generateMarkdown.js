@@ -17,7 +17,7 @@ function renderLicenseBadge(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ${renderLicenseBadge(license)}
+  ${renderLicenseBadge(data.license)}
 
   ## Description:
   - ${data.description}

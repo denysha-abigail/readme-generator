@@ -3,18 +3,33 @@ const inquirer = require('inquirer');
 const generateMd = require('./utils/generateMarkdown');
 const fs = require('fs');
 
-console.log('Hello there!!!!');
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of your project?'
+        message: 'What is the title of your project? (Required)',
+        validate: titleInput => {
+            if (titleInput) {
+                return true;
+            } else {
+                console.log('Please enter the title of your project!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'description',
-        message: 'What is the description of your project?'
+        message: 'What is the description of your project? (Required)',
+        validate: descInput => {
+            if (descInput) {
+                return true;
+            } else {
+                console.log('Please enter a project description!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
@@ -45,7 +60,15 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'What is your GitHub username?'
+        message: 'What is your GitHub username? (Required)',
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log('Please provide your GitHub username!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
@@ -54,24 +77,17 @@ const questions = [
     }
 ];
 
-inquirer.prompt(questions).then(answers => {
-    fs.writeFile('./README.md', generateMd(answers), (error) => {
-        if (error) {
-            console.log(error);
-            return;
-        } else {
-            console.log('Success! Your README.md file has been generated!');
-        }
+function readMe() {
+    inquirer.prompt(questions).then(answers => {
+        fs.writeFile('./dist/README.md', generateMd(answers), (error) => {
+            if (error) {
+                console.log(error);
+                return;
+            } else {
+                console.log('Success! Your README.md file has been generated!');
+            }
+        });
     });
-})
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-
 }
 
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+readMe();
