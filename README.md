@@ -18,7 +18,9 @@ This back-end command-line interface application utilizes JavaScript, Node.js, a
 ``` npm install ```
 
 ## Usage:
-- Once all packages have been installed, run the command ```npm index.js``` on your terminal and answer the displayed prompts as they appear on your command-line interface. Upon completion, a message will appear below the last prompt indicating that the application successfully generated your professional README.md file! For the last step, make sure you navigate to and open the dist folder in order to access the newly created file. 
+- Once all packages have been installed, run the command ```npm index.js``` on your terminal and answer the displayed prompts as they appear on your command-line interface. Upon completion, a message will appear below the last prompt indicating that the application successfully generated your professional README.md file! For the last step, make sure you navigate to and open the dist folder in order to access the newly created file.
+
+https://user-images.githubusercontent.com/96617237/164960052-dde5a601-d348-462f-a57b-c301afd32e30.mp4
 
 ## License:
 - This project is licensed under: [MIT](https://opensource.org/licenses/MIT)
