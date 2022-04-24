@@ -18,18 +18,18 @@
     Installation instructions go here.
 
   ## Usage:
-  - Usage instructions go here.
+  - Usage information goes here.
 
   ## License:
   - MIT
 
   ## Contribution:
-  - Constribution guidelines go here.
+  - Contribution guidelines go here.
 
   ## Tests:
   - Testing instructions go here.
 
   ## Questions:
-  - Click on my GitHub [link](https://github.com/SampleGitHubUser)! 
+  - Click on my GitHub [link](https://github.com/Sample-GitHub)! 
   - If you have any additional questions, I can be reached via <SampleEmail@email.com>
 
