@@ -1,9 +1,9 @@
-# test
+# Sample README.md
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description:
-  - test
+  - Description goes here.
 
   ## Table of Contents
   - [Installation](#installation)
@@ -15,21 +15,21 @@
 
   ## Installation:
   - To install, please run the following command on your terminal:
-    test
+    Installation instructions go here.
 
   ## Usage:
-  - test
+  - Usage instructions go here.
 
   ## License:
   - MIT
 
   ## Contribution:
-  - test
+  - Contribution guidelines go here.
 
   ## Tests:
-  - test
+  - Testing instructions go here.
 
   ## Questions:
-  - Click on my GitHub [link](https://github.com/test)! 
-  - If you have any additional questions, I can be reached via <test>
+  - Click on my GitHub [link](https://github.com/SampleGitHubUser)! 
+  - If you have any additional questions, I can be reached via <SampleEmail@email.com>
 
