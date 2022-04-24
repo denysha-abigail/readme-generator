@@ -24,7 +24,7 @@
   - MIT
 
   ## Contribution:
-  - Contribution guidelines go here.
+  - Constribution guidelines go here.
 
   ## Tests:
   - Testing instructions go here.
